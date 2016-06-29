@@ -11,6 +11,7 @@ config :oneminutewisdom,
 
 # Configures the endpoint
 config :oneminutewisdom, Oneminutewisdom.Endpoint,
+  http: [port: 4010],
   url: [host: "localhost"],
   secret_key_base: "8rTVt6QxBZIWZjv0cVJvQfOP/h3GxBlNE92kX/J6ycNUaXtMV2wPqjyMHuhFZUdq",
   render_errors: [view: Oneminutewisdom.ErrorView, accepts: ~w(html json)],
